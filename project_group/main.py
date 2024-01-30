@@ -7,13 +7,13 @@ from profit_loss import process_profit_loss
 
 
 # process cash on hand data
-cash_on_hand_result = process_cash_on_hand("csv_reports/CASH ON HAND.csv")
+cash_on_hand_result = process_cash_on_hand("project_group\csv_reports\CASH ON HAND.csv")
 
 # process overheads data
-overheads_result = process_overheads("csv_reports/OVERHEADS.csv")
+overheads_result = process_overheads("project_group\csv_reports\OVERHEADS.csv")
 
 # process profit and loss data
-profit_loss_result = process_profit_loss("csv_reports/PROFIT AND LOSS.csv")
+profit_loss_result = process_profit_loss("project_group\csv_reports\PROFIT AND LOSS.csv")
 
 
 # write results to summary_report.txt
