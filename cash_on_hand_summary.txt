@@ -1,0 +1,3 @@
+Cash-on-Hand Results:
+Highest Increment: Day 34, Amount 3851255.0
+Highest Decrement: Day 47, Amount -1856641.0
