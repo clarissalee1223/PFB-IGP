@@ -1,6 +1,7 @@
 #Group: Better_Buys
 #overheads.py
 
+
 import csv
 def process_overheads(file_path):
     overhead_data = []
@@ -12,11 +13,22 @@ def process_overheads(file_path):
             # Key Category column may be corrupted
             overhead_data.append({'category': row['ï»¿Category'], 'amount': float(row['Overheads'])})
 
-
 # create a function to determine the highest overhead
 def highest_overhead_value(overhead_data):
-    #for overhead_value in overhead_data:
-    print(overhead_data)
+    highest_overhead = 0
+    for row in overhead_data:
+        if (row["Overheads"] > highest_overhead):
+            highest_overhead = row["Overheads"]
+
+    return highest_overhead
+            
+def highest_overhead_row(overhead_data, highest_overhead):
+    for row in overhead_data:
+        if (row["Overheads"] == highest_overhead):
+            return row
+
+
+
 
 
 
