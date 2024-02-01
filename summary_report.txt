@@ -1,9 +1,0 @@
-Cash on Hand Results:
-{'highest_increment': {'day': 34, 'amount': 3851255.0}, 'highest_decrement': {'day': 47, 'amount': -1856641.0}}
-
-Overheads Results:
-None
-
-Profit and Lost Result:
-{'top_3_deficit_days': [{'day': 45, 'amount': 1958215.0}, {'day': 76, 'amount': 1370187.0}, {'day': 78, 'amount': 1151016.0}]}
-
